@@ -1,8 +1,9 @@
 
-conda create -n tournament
+conda activate base
 
 
-conda activate tournament
+conda install requests beautifulsoup4 
 
+conda install selenium 
 
-conda install requests beautifulsoup4
+pip install webdriver-manager
